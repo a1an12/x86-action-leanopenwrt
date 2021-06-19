@@ -27,7 +27,7 @@ echo "src-git openclash https://github.com/vernesong/OpenClash;master" >> feeds.
 # git clone -b master https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
 
 # add vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git
-mv lua-maxminddb package/lean/
-git clone https://github.com/jerrykuku/luci-app-vssr.git
-mv luci-app-vssr package/lean/
+# git clone https://github.com/jerrykuku/lua-maxminddb.git
+# mv lua-maxminddb package/lean/
+# git clone https://github.com/jerrykuku/luci-app-vssr.git
+# mv luci-app-vssr package/lean/
