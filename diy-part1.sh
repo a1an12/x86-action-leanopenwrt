@@ -27,7 +27,7 @@ rm -rf package/lean/luci-theme-argon && mv luci-theme-argon package/lean/
 echo "src-git openclash https://github.com/vernesong/OpenClash;master" >> feeds.conf.default
 
 # Add adguardhome
-echo "src-git luci-app-adguardhome https://github.com/rufengsuixing/luci-app-adguardhome;master" >> feeds.conf.default
+git clone -b master https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 # Add clash
 # git clone -b master https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
